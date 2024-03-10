@@ -1,7 +1,7 @@
 VERSION 0.7 # https://docs.earthly.dev/docs/earthfile#version
 FROM python:3
 
-ARG --global build_dir="out"
+ARG --global build_dir=".next"
 
 
 ################

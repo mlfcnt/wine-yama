@@ -1,0 +1,47 @@
+{
+    "code": "category",
+    "parent": null,
+    "media": null,
+    "translations": {
+        "fr_FR": {
+            "name": "Cat\u00e9gorie",
+            "slug": "categorie",
+            "description": null
+        }
+    },
+    "children": [
+        {
+            "code": "65ee03923fdbc",
+            "parent": "category",
+            "media": null,
+            "translations": {
+                "fr_FR": {
+                    "name": "Vin",
+                    "slug": "\/vin",
+                    "description": null
+                }
+            },
+            "children": [],
+            "collection": {
+                "posts": [
+                    "65ee040b87ef1"
+                ]
+            }
+        },
+        {
+            "code": "65ee03ad67d70",
+            "parent": "category",
+            "media": null,
+            "translations": {
+                "fr_FR": {
+                    "name": "Champagne",
+                    "slug": "champagne",
+                    "description": null
+                }
+            },
+            "children": [],
+            "collection": []
+        }
+    ],
+    "collection": []
+}

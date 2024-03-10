@@ -23,6 +23,20 @@
             },
             "children": [],
             "collection": []
+        },
+        {
+            "code": "65ee03ad67d70",
+            "parent": "category",
+            "media": null,
+            "translations": {
+                "fr_FR": {
+                    "name": "Champagne",
+                    "slug": "champagne",
+                    "description": null
+                }
+            },
+            "children": [],
+            "collection": []
         }
     ],
     "collection": []

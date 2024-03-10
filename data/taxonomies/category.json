@@ -22,7 +22,11 @@
                 }
             },
             "children": [],
-            "collection": []
+            "collection": {
+                "posts": [
+                    "65ee040b87ef1"
+                ]
+            }
         },
         {
             "code": "65ee03ad67d70",

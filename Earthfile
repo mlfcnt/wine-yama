@@ -40,7 +40,7 @@ node-base:
     COPY package.json ./
     COPY --if-exists yarn.lock ./
     COPY --if-exists package-lock.json ./
-    COPY --if-exists pnpm.lock ./
+    COPY --if-exists pnpm-lock.yaml ./
 
     DO +NODE_INSTALL_CI
 
@@ -90,7 +90,7 @@ update:
     COPY package.json ./
     COPY --if-exists yarn.lock ./
     COPY --if-exists package-lock.json ./
-    COPY --if-exists pnpm.lock ./
+    COPY --if-exists pnpm-lock.yaml ./
 
     DO +NODE_INSTALL
     DO +SAVE_DEPENDENCIES

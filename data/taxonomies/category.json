@@ -11,20 +11,6 @@
     },
     "children": [
         {
-            "code": "65ee03923fdbc",
-            "parent": "category",
-            "media": null,
-            "translations": {
-                "fr_FR": {
-                    "name": "Vin",
-                    "slug": "\/vin",
-                    "description": null
-                }
-            },
-            "children": [],
-            "collection": []
-        },
-        {
             "code": "65ee03ad67d70",
             "parent": "category",
             "media": null,
@@ -32,6 +18,20 @@
                 "fr_FR": {
                     "name": "Champagne",
                     "slug": "champagne",
+                    "description": null
+                }
+            },
+            "children": [],
+            "collection": []
+        },
+        {
+            "code": "65ee03923fdbc",
+            "parent": "category",
+            "media": null,
+            "translations": {
+                "fr_FR": {
+                    "name": "Vin",
+                    "slug": "\/vin",
                     "description": null
                 }
             },

@@ -1,7 +1,7 @@
 VERSION 0.7 # https://docs.earthly.dev/docs/earthfile#version
 FROM python:3
 
-ARG --global build_dir=".next"
+ARG --global build_dir="out"
 
 
 ################
@@ -40,7 +40,7 @@ node-base:
     COPY package.json ./
     COPY --if-exists yarn.lock ./
     COPY --if-exists package-lock.json ./
-    COPY --if-exists pnpm-lock.yaml ./
+    COPY --if-exists pnpm.lock ./
 
     DO +NODE_INSTALL_CI
 
@@ -90,7 +90,7 @@ update:
     COPY package.json ./
     COPY --if-exists yarn.lock ./
     COPY --if-exists package-lock.json ./
-    COPY --if-exists pnpm-lock.yaml ./
+    COPY --if-exists pnpm.lock ./
 
     DO +NODE_INSTALL
     DO +SAVE_DEPENDENCIES
